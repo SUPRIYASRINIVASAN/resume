@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Supriya S Portfolio</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+/* Navigation */
+
+nav{
+    background:#dce5e8;
+    display:flex;
+    justify-content:space-between;
+    padding:20px 50px;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+}
+
+/* Home */
+
+.home{
+    height:90vh;
+    background:linear-gradient(to right,#4f5d4f,#76856f);
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.home h1{
+    font-size:80px;
+}
+
+.home p{
+    font-size:28px;
+    margin-top:15px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 25px;
+    border:2px solid white;
+    color:white;
+    text-decoration:none;
+}
+
+/* Sections */
+
+section{
+    padding:50px;
+}
+
+h2{
+    color:#2f4f4f;
+    margin-bottom:20px;
+    font-size:35px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 5px gray;
+}
+
+ul{
+    margin-left:20px;
+}
+
+li{
+    margin-bottom:8px;
+}
+
+footer{
+    background:#2f4f4f;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">SUPRIYA S</div>
+
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="home">
+    <div>
+        <h1>CAREER<br>HIGHLIGHTS</h1>
+        <p>Empower Your Career with Supriya S</p>
+        <a href="#contact" class="btn">Contact Me</a>
+    </div>
+</div>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am Supriya S, pursuing B.Tech Artificial Intelligence and Machine Learning
+        at Kongu Engineering College. Interested in Machine Learning, Deep Learning,
+        Computer Vision and Web Development.
+    </p>
+</section>
+
+<section>
+    <div class="container">
+
+        <div class="card" id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>B.Tech AI & ML</li>
+                <li>Kongu Engineering College</li>
+                <li>2024 - 2028</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Projects</h2>
+            <ul>
+                <li>Smart Internet Prediction in ML</li>
+                <li>Surface Defect Detection using CNN</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Inplant Training</h2>
+            <ul>
+                <li>FriendZone - Hosur</li>
+                <li>ETS Academy - Erode</li>
+            </ul>
+        </div>
+
+        <div class="card" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>C Programming</li>
+                <li>Python</li>
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+                <li>HTML & CSS</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Participated in Hackathons</li>
+                <li>Participated in Ideation Competitions</li>
+                <li>Attended Technical Workshops</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Advanced Programming in C</li>
+                <li>Flutter Mobile App Development</li>
+                <li>Django Framework</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p><b>Email:</b> supriyasrinivasan5@gmail.com</p>
+    <p><b>Phone:</b> 8220584052</p>
+    <p><b>Location:</b> Hosur</p>
+</section>
+
+<footer>
+    <p>© 2026 Supriya S Portfolio</p>
+</footer>
+
+</body>
+</html>
